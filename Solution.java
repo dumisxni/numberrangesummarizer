@@ -16,12 +16,8 @@ public class Solution implements NumberRangeSummarizer{
         ArrayList<Integer> inputArrayList = new ArrayList<>();
 
         for (String no : inputIntegers) {
-            // System.out.println(no);
             inputArrayList.add(Integer.parseInt(no)); // add the numbers from the split array to the inputArrayList
         }
-        // for (Integer integer : inputArrayList) {
-        //     System.out.print(integer+", ");
-        // }
         return inputArrayList;
     }
 
