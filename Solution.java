@@ -61,6 +61,6 @@ public class Solution implements NumberRangeSummarizer{
             sb.append(inputArrayList.get(pointer1));
         }
 
-        return sb.toString();
+        return sb.toString().replaceAll(", $", ""); // remove the extraspaces or commas at the end
     }
 }
